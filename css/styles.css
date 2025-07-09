@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
 
 * {
   padding: 0;
@@ -21,7 +23,7 @@ body {
   align-items: center;
   color: white;
   font-size: 20px;
-  background-color: #282a56;
+  background-image: linear-gradient(blue, yellow);
 }
 
 .container {
@@ -83,20 +85,55 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: 69px;
+  font-weight: normal;
+  color: red;
+  background-image: radial-gradient(red, yellow, green);
+  text-decoration: line-through;
+  text-transform: none;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .didILetter {
+  font-family: 'Manufacturing Consent', system-ui;
+  font-weight: 400;
+  font-size: 90px;
+  color: black;
+  background-color: orange;
+  text-transform: uppercase; 
 }
 
 .didDTwoLetter {
+  font-family: 'Manufacturing Consent', system-ui;
+  font-size: 5px;
+  font-weight: 400;
+  color: blue;
+  background-image: linear-gradient(to right, red, gold);
+  text-decoration: underline;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-family: 'Bitcount Grid Double', system-ui;
+  font-size: 31px;
+  font-weight:900;
+  color: rgb(13, 110, 117);
+  background-color:rgb(54, 54, 54);
+  text-transform: lowercase;
+  text-decoration-line: overline; 
 }
 
 .theHLetter {
+  font-family:'Manufacturing Consent', system-ui;
+  font-size: large;
+  font-weight: 400;
+  color:hsl(100, 100%, 25%);
+  background-color: hsl(105, 50%, 15%);
+  text-transform: capitalize;
+  text-decoration-color: aqua;
+  text-decoration-line: overline;
+  text-decoration-thickness: 4rem;
 }
 
 .theELetter {
