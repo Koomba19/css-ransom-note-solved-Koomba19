@@ -380,6 +380,12 @@ body {
   background-image: radial-gradient(rgb(60, 60, 141), hwb(0 17% 17%));
 }
 .gardeningNLetter {
+  font-family: "Ceviche One";
+  font-size: 45px;
+  font-weight: 400;
+  color: hsl(212, 80%, 50%);
+  text-decoration: overline underline solid pink;
+  background-color: aliceblue;
 }
 .gardeningILetter {
 }
