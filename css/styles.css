@@ -412,13 +412,29 @@ body {
   background-image: linear-gradient(148deg, brown, red, brown, yellow, brown);
 }
 
+.question-mark {
+  font: 400 56px monospace;
+  color: rgb(21, 70, 27);
+  background-image: radial-gradient(rgb(24, 41, 78), rgb(168, 154, 90), rgb(89, 38, 122));
+
+}
 /* BECAUSE word */
 
 .becauseBLetter {
+  font: 300 55px sans-serif;
+  color: rgb(15, 144, 250);
+  background-image: radial-gradient(rgb(24, 34, 56), rgb(23, 155, 5), rgb(148, 23, 188));
 }
 .becauseELetter {
+  font: 400 34px 'Raleway Dots';
+  color: rgb(221, 224, 9);
+  background-image: radial-gradient(rgb(12, 65, 180), rgb(206, 201, 201), rgb(253, 114, 1));
+
 }
 .becauseCLetter {
+  font: 100px 'Raleway Dots';
+  color: hsl(212, 69%, 41%);
+  background-image: linear-gradient(89deg, orange 20%, green 59%, orange 4%, green 15%, orange 2%)
 }
 .becauseALetter {
 }
