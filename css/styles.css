@@ -504,14 +504,23 @@ background-image: linear-gradient(to bottom, rgb(100, 200, 100), white, black, w
   background-image: radial-gradient(rgb(150, 200, 150), white, black, rgb(200, 200, 200), black);
 }
 .wantedTLetter {
-  font-size: 40px;
+  font-size: 70px;
+  text-transform: capitalize;
   font-family: Arial, Helvetica, sans-serif;
-  color: gray;
-  background-image: radial-gradient(black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white,)
+  color: rgb(116, 0, 0);
+  background-image: radial-gradient(black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white);
 }
 .wantedELetter {
+  font-size: 89px;
+  font-family: "Manufacturing Consent";
+  color: rgb(25, 100, 25);
+  background-image: linear-gradient(to bottom, green, rgb(50, 50, 100));
 }
 .wantedDLetter {
+  font-size: 73px;
+  font-family: "Manufacturing Consent";
+  color: gold;
+  background-image: linear-gradient(275deg, rgb(245, 116, 116), rgb(128, 35, 35), rgb(59, 9, 9), black);
 }
 
 /* TO word */
