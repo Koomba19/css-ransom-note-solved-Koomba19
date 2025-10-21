@@ -432,39 +432,82 @@ body {
 
 }
 .becauseCLetter {
-  font: 100px 'Raleway Dots';
+font: 100px 'Raleway Dots';
   color: hsl(212, 69%, 41%);
   background-image: linear-gradient(89deg, orange 20%, green 59%, orange 4%, green 15%, orange 2%)
 }
 .becauseALetter {
+  font: 95px "Manufacturing Consent";
+  color: hsl(165, 68%, 32%);
+  background-image: linear-gradient(pink, rgb(116, 230, 116));
 }
 .becauseULetter {
+  font: 78px "Manufacturing Consent";
+  color: hsl(78, 90%, 50%);
+  background-image: linear-gradient(90deg, rgb(70, 75, 4), rgb(87, 0, 87));
 }
 .becauseSLetter {
+  font: 50px "Manufacturing Consent";
+  color: hsl(199, 61%, 30%);
+  background-image: linear-gradient(90deg, pink, rgb(70, 75, 4), rgb(87, 0, 87), rgb(116, 230, 116));
 }
 .becauseETwoLetter {
+  font: 95px "Manufacturing Consent";
+  color: hsl(165, 68%, 32%);
+  background-image: radial-gradient(pink, rgb(70, 75, 4), rgb(87, 0, 87), rgb(116, 230, 116));
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font: 25px "Manufacturing Consent";
+  color: white;
+  background-image: radial-gradient(black, teal, black, rgb(87, 0, 87), black, teal, black);
 }
 .theyHLetter {
+  font-size: 80px;
+  font-family: "Manufacturing Consent";
+  color: blue;
+  background-image: linear-gradient(45deg, yellow, 20%, rgb(89, 89, 212));
 }
 .theyELetter {
+  font-size: 120px;
+  font-family: "Manufacturing Consent";
+  color: black;
+  background-image: radial-gradient(white, red, 60%, white);
 }
 .theyYLetter {
+  font-size: 3rem;
+  font-family: "Manufacturing Consent";
+  color: white;
+  background-image: linear-gradient(to top left, red, blue, green)
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+font-size: 4rem;
+font-family: "Manufacturing Consent";
+color: white;
+background-image: radial-gradient(black, red, black, blue, black, green, black);
 }
 .wantedALetter {
+font-size: 60px;
+font-family: "Manufacturing Consent";
+color: aqua;
+background-image: linear-gradient(to bottom, rgb(100, 200, 100), white, black, white, rgb(99, 209, 99));
 }
 .wantedNLetter {
+  font-size: 99px;
+  font-family: "Manufacturing Consent";
+  color: red;
+  background-image: radial-gradient(rgb(150, 200, 150), white, black, rgb(200, 200, 200), black);
 }
 .wantedTLetter {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  background-image: radial-gradient(black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white,)
 }
 .wantedELetter {
 }
