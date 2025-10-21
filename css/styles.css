@@ -526,25 +526,61 @@ background-image: linear-gradient(to bottom, rgb(100, 200, 100), white, black, w
 /* TO word */
 
 .toTLetter {
+  font-size: 99px;
+  font-family: "Manufactured Consent";
+  color: white;
+  background-image: linear-gradient(green, violet, yellow);
 }
 .toOLetter {
+  font-size: 88px;
+  font-family: "Manufactured Consent";
+  color: black;
+  background-image: linear-gradient(180deg, red, 20%, orange, 40%, white, 60%, rgb(192, 110, 124), 80%, rgb(68, 13, 44));
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 339px;
+  font-family: "Manufactured Consent";
+  color: orange;
+  background-image: radial-gradient(purple, rgb(65, 133, 112));
 }
 .improveMLetter {
+  font-size: 85px;
+  font-family: "Manufactured Consent";
+  color: blue;
+  background-image: linear-gradient(orange, rgb(179, 135, 54), hsl(40, 21%, 25%));
 }
 .improvePLetter {
+  font-size: 40px;
+  font-family: "Manufactured Consent";
+  color: red;
+  background-image: radial-gradient(black, blue, red);
 }
 .improveRLetter {
+  font-size: 89px;
+  font-family: "Manufactured Consent";
+  color: black;
+  background-image: radial-gradient(rgb(204, 204, 4), rgb(37, 97, 37));
 }
 .improveOLetter {
+  font-size: 50px;
+  font-family: "Manufactured Consent";
+  color: silver;
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 151), silver, white, silver, rgb(0, 0, 158))
 }
 .improveVLetter {
+  font-size: 28px;
+  font-family: "Manufactured Consent";
+  color: white;
+  background-image: radial-gradient(red, yellow, red, orange, red, yellow, red, 50%, black);
 }
 .improveELetter {
+  font-size: 19px;
+  font-family: "Manufactured Consent";
+  color: black;
+  background-image: linear-gradient(45deg, black, 30%, pink, white, pink, white, pink, white, pink, 70%, black);
 }
 
 /* THEIR word */
