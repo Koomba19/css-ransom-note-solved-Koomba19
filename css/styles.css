@@ -646,23 +646,59 @@ background-image: linear-gradient(to bottom, rgb(100, 200, 100), white, black, w
 /* SKILLS word */
 
 .skillsSLetter {
+  font-size: 38px;
+  font-family: "Manufacturing Consent";
+  color: dodgerblue;
+  background-image: radial-gradient(#ff4567, #a89d78, #fabc12, #cc4545, #99ff12);
 }
 .skillsKLetter {
+  font-size: 35px;
+  font-family: "Bitcount Grid Double";
+  color: #123123;
+  background-image: linear-gradient(#208080, #208020, #802020, #404090, #409040, #904040);
 }
 .skillsILetter {
+  font-size: 31px;
+  font-family: "Bitcount Grid Double";
+  color: #808020;
+  background-image: linear-gradient(to right, #10aaaa, #20aaaa, #50aaaa, 30%,  #90aaaa, #aaaaaa, #ccaaaaaa, #ffaaaa);
 }
 .skillsLLetter {
+  font-size: 3rem;
+  font-family: "Manufacturing Consent";
+  color: gray;
+  background-image: linear-gradient(to bottom left, #aa10aa, #aa50aa, #aa90aa, #aaaaaa, #aaccaa, #aaffaa);
 }
 .skillsLTwoLetter {
+  font-size: 3.5rem;
+  font-family: "Bitcount Grid Double";
+  color:#802020;
+  background-image: linear-gradient(178deg, #aaaa10, #aaaa50, #aaaa90, #aaaaaa, #aaaacc, #aaaaff);
 }
 .skillsSTwoLetter {
+  font-size: 2.9rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  background-image: radial-gradient(#ff0000, #ff5050, #ff9999, #ffbbbb, #ffffff);
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 20rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: linear-gradient(2deg, black, 5%, white, 10%, black, 20%, white, 30%, black, 55%, white, 70%, black);
 }
 .exclamation-mark {
+  font-size: 70px;
+  font-family: "Manufacturing Consent";
+  color: orangered;
+  background-image: radial-gradient(red, black, blue, white, blue, 30%, black, blue, black);
 }
 .question-mark {
+  font-size: 55px;
+  font-family: "Bitcount Grid Double";
+  color: red;
+  background-image: radial-gradient(white, red, white, pink, black, red, black);
 }
