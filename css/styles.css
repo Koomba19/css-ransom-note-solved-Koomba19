@@ -142,7 +142,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: hsl(200, 100%, 25%);
-  text-shadow: red, 20px, 15px;
+  text-shadow: 2px 0 red;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -154,7 +154,7 @@ body {
   font-size: 12px;
   font-weight: lighter;
   color: tomato;
-  text-decoration: wavy, green;
+  text-decoration: wavy green;
   text-transform: none;
   background-color: yellow;
 }
@@ -164,7 +164,7 @@ body {
   font-size: 19px;
   font-weight: 400;
   color: hotpink;
-  text-decoration: overline, fuchsia, 5px;
+  text-decoration: overline fuchsia 5px;
   text-transform: capitalize;
   background-image: linear-gradient(red, yellow);
 }
@@ -174,7 +174,7 @@ body {
   font-weight: 400;
   font-size: 25px;
   color: rgb(200, 150, 30);
-  text-decoration: double wavy overline;
+  text-decoration: double overline;
   text-transform: lowercase;
   background-image: linear-gradient(to top, black, white);
 }
@@ -215,7 +215,6 @@ body {
   font-weight: normal;
   color: purple;
   text-decoration: line-through;
-  text-transform: normal;
   background-color: black;
 }
 
@@ -276,7 +275,7 @@ body {
   font-size: 18px;
   font-weight: normal;
   color: white;
-  text-decoration: line-through solid 1 rem rgba(216, 10, 10, 0.3);
+  text-decoration: line-through solid 1em rgba(216, 10, 10, 0.3);
   background-color: rgba(216, 10, 10);
 }
 .developerPLetter {
@@ -360,7 +359,7 @@ body {
 }
 .gardeningRLetter {
   font: 80px "Manufacturing Consent";
-  text-shadow: 0.2em 0.2em black 5;
+  text-shadow:2em 0.2em 5px;
   color: white;
   background-image: linear-gradient(to right, midnightblue, black 30%, gold 45%, black 50%, gold 55%, black 70%, midnightblue);
 }
@@ -664,19 +663,19 @@ background-image: linear-gradient(to bottom, rgb(100, 200, 100), white, black, w
   background-image: linear-gradient(to right, #10aaaa, #20aaaa, #50aaaa, 30%,  #90aaaa, #aaaaaa, #ccaaaaaa, #ffaaaa);
 }
 .skillsLLetter {
-  font-size: 3rem;
+  font-size: 30px;
   font-family: "Manufacturing Consent";
   color: gray;
   background-image: linear-gradient(to bottom left, #aa10aa, #aa50aa, #aa90aa, #aaaaaa, #aaccaa, #aaffaa);
 }
 .skillsLTwoLetter {
-  font-size: 3.5rem;
+  font-size: 40px;
   font-family: "Bitcount Grid Double";
   color:#802020;
   background-image: linear-gradient(178deg, #aaaa10, #aaaa50, #aaaa90, #aaaaaa, #aaaacc, #aaaaff);
 }
 .skillsSTwoLetter {
-  font-size: 2.9rem;
+  font-size: 129px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
   background-image: radial-gradient(#ff0000, #ff5050, #ff9999, #ffbbbb, #ffffff);
@@ -685,7 +684,7 @@ background-image: linear-gradient(to bottom, rgb(100, 200, 100), white, black, w
 /* SYMBOLS */
 
 .hyphen {
-  font-size: 20rem;
+  font-size: 80px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   background-image: linear-gradient(2deg, black, 5%, white, 10%, black, 20%, white, 30%, black, 55%, white, 70%, black);
